@@ -3,9 +3,19 @@
 
 var express = require('express');
 var router = express.Router();
-var burger = require('./models/burger.js');
+var burger = require('../models/burger.js');
 
+var app = express();
 //Add all routers below
 
 
+// router.get('/', function(req,res) {
+// 	res.redirect('/burger')
+// });
 
+
+// app.get('/', function(req, res) {
+// 	res.send ('<h2> This is working! Cool mon!</2>');
+// });
+
+module.exports = router;

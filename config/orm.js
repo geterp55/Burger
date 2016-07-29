@@ -6,6 +6,6 @@ Here is the O.R.M. where you write functions that takes inputs and conditions an
 //This page will pull info from the db
 //object relational mapper (ORM)
 
-var connection = require('./conneciton.js');
+var connection = require('./connection.js');
 
 

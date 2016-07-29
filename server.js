@@ -26,7 +26,7 @@ app.engine('handlebars', exphbs({
 
 //requiring handlebars and then asking the app to set handlebars for layout
 app.set('view engine', 'handlebars');
-app.set('views', path.join(__dirname, 'views/'));
+// app.set('views', path.join(__dirname, 'views/'));
 
 
 //----------------------------------------------------
